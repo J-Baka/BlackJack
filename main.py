@@ -26,6 +26,7 @@ def user_turn():
     total = user_card[i]
     while not end_turn:
         user_choice = input("Would you like to draw another card? Type 'Yes' or 'No': ")
+
         if user_choice == "Yes":
             i += 1
             user_card.append(user_deck[dealer])
